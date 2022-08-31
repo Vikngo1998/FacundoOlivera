@@ -9,3 +9,90 @@
     height: 90vh;
     background-size: cover;
 }
+
+/***FOOTER**/
+
+footer {
+    padding: 8rem;
+    padding-top: 2;
+
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/1.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 2rem;
+}
+
+footer h2,
+footer p {
+    color: black;
+}
+
+.footer__top>div {
+    flex: 1;
+
+}
+
+
+.footer__top h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    color: black;
+
+}
+
+.footer__top p {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.footer__top {
+    display: flex;
+
+}
+
+.tarjetitas {
+    padding: 60px;
+    display: flex;
+    gap: 30px;
+}
+
+.tarjetita {
+    background-color:#6acbe9cd;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.informacion {
+    padding: 0 20px 20px 20px;
+}
+
+.tarjetita__imagen {
+    max-width: 100%;
+}
+
+.pie {
+    background-color: #6acbe9;
+    color: white;
+    padding-block: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tarjetitados {
+    flex: 1.5;
+}
+
+.tarjetita:hover {
+    transform: scale(1.1) translateY(-60px);
+}
