@@ -4,6 +4,9 @@
     font-family: 'Figtree', sans-serif;
 }
 
+.menu{
+    background-color: #6acbe9;
+}
 .hero {
     background-image: url("../img/hero-bg.jpg");
     height: 90vh;
@@ -96,3 +99,48 @@ footer p {
 .tarjetita:hover {
     transform: scale(1.1) translateY(-60px);
 }
+
+@media screen and (max-width: 768px) {
+    .tarjetitas{
+        flex-direction: column
+    };
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 3rem;
+        
+}
+    
+
+    footer {
+        padding: 2rem;
+    }
+
+    .footer__top {
+        flex-direction: column;
+        padding: 0;
+        gap: 2rem;
+    }
+
+    
+
+    .footer__bottom {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .footer__bottom .icons {
+        order: -1;
+    }
+    
+
+
+@media screen and (max-width: 480px) {
+
+    .hero__main {
+        flex-direction: column;
+    }
+}
+  
+   
